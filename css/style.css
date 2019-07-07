@@ -1,0 +1,366 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+a,
+a:visited,
+a:active,
+a:focus {
+  color: #555;
+  background-color: transparent;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+a:focus {
+  color: #555;
+}
+
+a:hover {
+  color: #000;
+}
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+p{
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  width:100%;
+  overflow: hidden;
+  padding: 10px 15px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+/* Nav */
+
+.logo {
+  background-color:white;
+  
+  color: #000;
+  font-size: 1.8rem; /*28.8px; */
+  letter-spacing: 1px;
+  /* padding: 20px; */
+}
+
+.navigation a {
+  float: left;
+  padding: 10px;
+  /* display: block; */
+  
+}
+
+.navbarul {
+  float: right;
+  list-style: none;
+  margin: 10px;
+  /* background-color: darkseagreen; */
+}
+
+.navbarul li {
+  float: left;
+}
+
+.navbarul li a {
+  /* display: inline-block; */
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+}
+
+ .nvaicon{
+  /* float: right; */
+  display: none;
+  /* background-color: burlywood; */
+}
+
+.nav-item {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	font-weight: 400;
+  letter-spacing: 2px;
+  color: #009688;
+}
+
+.nav-item .fa-shopping-cart {
+	color: #009688;
+	font-size: 1.5rem;
+	padding-top: 2px;
+}
+
+
+
+/*snipcart*/
+.snipcart-summary {
+	font-size: 0.9rem;
+}
+
+#snipcart-header {
+  background: #009688;
+}
+
+#snipcart-main-container a {
+  color: #009688;
+}
+
+#snipcart-footer {
+  display: none;
+}
+
+#snipcart-main-container a.snipcart-next,
+#snipcart-main-container a.snipcart-finalize,
+#snipcart-main-container a.snipcart-mainaction {
+  background: #009688;
+	color: white;
+  border: none;
+  text-shadow: none;
+}
+
+/* header */
+
+header {
+  background-image: url("../images/plants.jpg");
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 376px;
+  max-width: 100%;
+  position: relative;
+}
+
+.header-link {
+  display: inline-block;
+  background-color: white;
+	border-radius: 25px;
+  margin-top: 15px;
+  padding: 15px 20px;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+
+.header-link:hover {
+  background-color: #eee;
+}
+
+
+.article {
+  padding-top: 120px;
+}
+
+.article span h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+      font-size: 2.5rem;
+      line-height: 1.2;
+  color: white;
+}
+
+.article a{
+    /* display: inline-block; */
+    border-radius: 25px;
+    margin-top: 15px; 
+    background-color: white;
+    padding: 15px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;  
+}
+
+/*Shop*/
+
+#shop{
+  /* background-color: red; */
+  max-width: 1100px;
+  margin: auto;
+}
+
+.row{
+    /* background-color: darkkhaki;   */
+    /* max-width: 100%; */
+    margin: 0 auto;
+    /* padding: 0 20px; */
+    max-width: 100%;
+    /* vertical-align:middle;  */
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    /* padding-left: 100px; */
+}
+
+.card{
+    /* background-color: lightslategray; */
+
+    /* text-align: left;*/
+    /* display: inline-block; 
+    margin: 10px 2.3%; */
+    /* float: left;*/
+    /* margin: 0 25px;  */
+    margin: 0 2.4%; 
+    float: left;
+    width: 300px;
+    height: auto;
+    /* padding: 50px; */
+    /* text-align: center; */
+}
+
+.card a img{
+  /* overflow: auto; */
+  /* background-color: yellow; */
+  /* max-width: 300px;
+  height: 300px; */
+  height: auto;
+  max-width: 100%;
+  
+}
+
+.price{
+  /* color: #666; */
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	font-weight: 300;
+	letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+
+/*about*/
+
+.post-page {
+	margin-bottom: 20px;
+}
+
+.page-content{
+  max-width: 610px;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.page-content img{
+  width: 100%;
+	object-fit: cover;
+}
+
+
+/*Form*/
+
+.page-content input, textarea 
+{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.page-content input:focus, textarea:focus {
+  border-color: #777;
+  outline: none;
+}
+
+.page-content button {
+  color: #777;
+	font-size: 0.9rem;
+	background: #fff;
+  padding: 10px 15px;
+	width: 100%;
+  border: solid #ccc 2px;
+	transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+/*Plant*/
+
+.plant-img{
+ float : left;
+ /* background-color: #009688; */
+ width: 50%;
+}
+
+.plant-img a{
+  max-width: 290px;
+  width: 100%;
+  height: auto;
+}
+
+.plant-content{
+  max-width: 450px;
+  width: 50%;
+  float : right;
+  padding : 20px 20px;
+  /* background-color: darkgoldenrod; */
+}
+
+.plant-cart{
+  display: block;
+  padding: 20px 20px;
+  /* background-color: yellow; */
+}
+
+.plant-cart-link{
+    border-radius: 25px;
+    margin-top: 15px; 
+    background-color:  #009688;
+    padding: 15px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;  
+    color: white;
+}
+
+/*footer*/
+footer{
+  /* background-color:orange; */
+ 
+  position: relative;
+  max-width: 1100px;
+  height: 181px;
+  margin: auto;
+}
+
+.footer-container{
+  border-top: 1px solid #eee;
+  position: absolute;
+  margin-top:50px;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px; 
+  /* height: 90px; */
+  padding-top: 50px;
+  /* display:flex;
+  align-items:center;  
+  justify-content:center; */
+  
+  text-align: center;
+  
+}
+.footer-container a{
+  margin: 0px 15px;
+}

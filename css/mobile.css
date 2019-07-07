@@ -1,0 +1,142 @@
+@media screen and (min-width: 990px) {
+
+
+ 
+}
+
+@media screen and (min-width : 769px) and (max-width:899px){
+  .container {
+    max-width: 720px;
+  }
+
+  .navigation ul {
+    float: right;
+  }
+
+  .card{
+    width: 100%;
+    max-width:360px;
+    /* background-color:cadetblue; */
+    margin: 0 ;
+    /* margin: 0 5.6%; */
+  }
+  .card a img{
+    /* width: 95%;
+    min-width: 214px; */
+    /* margin: 0 auto;  */
+    max-width: 330px;
+    width: 100%;
+    /* background-color:green; */
+  }
+
+/*about*/
+.page-content{
+  max-width: 690px;
+}
+
+/*plant*/
+ 
+ .plant-img a{
+   max-width: 270px;
+ }
+ 
+ .plant-content{
+   max-width: 330px;
+ }
+
+
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+  .container {
+    max-width: 540px;
+  }
+
+
+  .navbarul.responsive {
+    display: block;
+    float: none;
+    list-style: none;
+  } 
+
+.navigation a {
+  /* display: block; */
+  text-align: center;
+  float: none;
+}
+.navbarul {
+  float: none;
+  list-style: none;
+  display: none;
+}
+  .navbarul li {
+    float: none;
+    /* display: block; */
+  }
+  .navbarul li a{
+    float: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+  }
+
+
+  .navigation  .nvaicon {
+    /* display: inline-block; */
+    float: right;
+    text-align: center;
+  }
+
+  .row{
+    /* margin: auto; */
+
+  }
+
+  .card{
+    width: 100%;
+    max-width:580px;
+    /* background-color: chocolate; */
+    margin: 0 5.6%;
+  }
+
+  .card a img{
+    /* width: 95%;
+    min-width: 214px; */
+    /* margin: 0 auto;  */
+    max-width: 540px;
+    width: 100%;
+    /* background-color: yellow; */
+  }
+
+  .navigation  .nvaicon{
+    float: right;
+    display: block;
+  }
+
+  /*about*/
+  .page-content{
+    max-width: 510px;
+  }
+
+  /*plant*/
+ 
+  .plant-img{
+    width: 100%;
+    text-align: center;
+  }
+
+ .plant-img a{
+   
+    max-width: 510px;
+  }
+
+  .plant-content{
+    max-width: 540px;
+    width: 100%;
+  }
+
+}
