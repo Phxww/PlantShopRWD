@@ -14,7 +14,6 @@
   }
 
   .row{
-    /* margin: 0px -15px;   */
    width: 720px;
   }
 
@@ -23,31 +22,17 @@
     height: 100%;
     max-width:340px;
     max-height: 400px;
-    /* background-color:cadetblue; */
     margin: 0 auto;
-    /* margin: 0 5.6%; */
   }
   .card a img{
-    /* width: 95%;
-    min-width: 214px; */
-    /* margin: 0 auto;  */
     max-width: 330px;
     width: 100%;
-    /* background-color:green; */
   }
 
-/*about*/
-.page-content{
-  max-width: 690px;
-}
-
-/*plant*/
- 
- /* .plant-img a{
-   max-width: 270px;
- } */
- 
-
+  /*about*/
+  .page-content{
+    max-width: 690px;
+  }
 
 }
 
@@ -68,7 +53,6 @@
   } 
 
 .navigation a {
-  /* display: block; */
   text-align: center;
   float: none;
 }
@@ -79,8 +63,8 @@
 }
   .navbarul li {
     float: none;
-    /* display: block; */
   }
+
   .navbarul li a{
     float: none;
     padding: 5px;
@@ -90,13 +74,11 @@
 
 
   .navigation  .nvaicon {
-    /* display: inline-block; */
     float: right;
     text-align: center;
   }
 
   .row{
-    /* margin: auto; */
     max-width: 540px;
     width: 100%;
     height: auto;
@@ -111,9 +93,6 @@
   }
 
   .card a img{
-    /* width: 95%;
-    min-width: 214px; */
-    /* margin: 0 auto;  */
     max-width: 510px;
     max-height: 510px;
     width: 100%;
