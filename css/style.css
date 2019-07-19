@@ -45,10 +45,10 @@ p{
 
 .container {
   margin: auto;
-  max-width: 1100px;
+  max-width: 1400px;
   width:100%;
   overflow: hidden;
-  padding: 10px 15px;
+  padding: 10px 10px;
 }
 
 .text-center {
@@ -63,29 +63,25 @@ p{
   color: #000;
   font-size: 1.8rem; /*28.8px; */
   letter-spacing: 1px;
-  /* padding: 20px; */
 }
 
 .navigation a {
   float: left;
   padding: 10px;
-  /* display: block; */
-  
 }
 
 .navbarul {
   float: right;
   list-style: none;
   margin: 10px;
-  /* background-color: darkseagreen; */
 }
 
 .navbarul li {
+  line-height:30px;
   float: left;
 }
 
 .navbarul li a {
-  /* display: inline-block; */
   display: block;
   text-align: center;
   padding: 10px;
@@ -94,9 +90,7 @@ p{
 }
 
  .nvaicon{
-  /* float: right; */
   display: none;
-  /* background-color: burlywood; */
 }
 
 .nav-item {
@@ -111,7 +105,6 @@ p{
 .nav-item .fa-shopping-cart {
 	color: #009688;
 	font-size: 1.5rem;
-	padding-top: 2px;
 }
 
 
@@ -185,7 +178,6 @@ header {
 }
 
 .article a{
-    /* display: inline-block; */
     border-radius: 25px;
     margin-top: 15px; 
     background-color: white;
@@ -197,51 +189,35 @@ header {
 /*Shop*/
 
 #shop{
-  /* background-color: red; */
-  max-width: 1100px;
+  max-width: 1140px;
+  width: 100%;
   margin: auto;
 }
 
 .row{
-    /* background-color: darkkhaki;   */
-    /* max-width: 100%; */
     margin: 0 auto;
-    /* padding: 0 20px; */
-    max-width: 100%;
-    /* vertical-align:middle;  */
-    /* text-align: center; */
-    /* vertical-align: middle; */
-    /* padding-left: 100px; */
+    width: 1140px;
 }
 
 .card{
-    /* background-color: lightslategray; */
-
-    /* text-align: left;*/
-    /* display: inline-block; 
-    margin: 10px 2.3%; */
-    /* float: left;*/
-    /* margin: 0 25px;  */
-    margin: 0 2.4%; 
+    margin: 0 auto; 
     float: left;
-    width: 300px;
-    height: auto;
-    /* padding: 50px; */
-    /* text-align: center; */
+    max-width: 360px;
+    max-height: 420px;
+    width: 100%;
+    height: 100%;
 }
 
 .card a img{
-  /* overflow: auto; */
-  /* background-color: yellow; */
-  /* max-width: 300px;
-  height: 300px; */
-  height: auto;
-  max-width: 100%;
+  width: 100%;
+  height: 350px;
+  display: block;
+  
+  max-width: 350px;
   
 }
 
 .price{
-  /* color: #666; */
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-size: 0.7rem;
@@ -298,30 +274,48 @@ header {
 
 /*Plant*/
 
-.plant-img{
- float : left;
- /* background-color: #009688; */
- width: 50%;
+.plantBox{
+  
+  max-width: 1140px;
+  height: 380px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
-.plant-img a{
-  max-width: 290px;
+.plant-img{
+ float : left;
+ width:50%;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.plant-img img{
+  
+  max-width: 350px;
+  max-height: 350px;
   width: 100%;
-  height: auto;
+  height: 100%;
+  margin: auto;
 }
 
 .plant-content{
-  max-width: 450px;
+  text-align: center;
   width: 50%;
-  float : right;
-  padding : 20px 20px;
-  /* background-color: darkgoldenrod; */
+  float : left;
+  margin: 0 auto;
+  padding: 15px;
+  
+}
+
+.plant-content p{
+  max-width: 450px;
+  margin: auto;
 }
 
 .plant-cart{
   display: block;
   padding: 20px 20px;
-  /* background-color: yellow; */
 }
 
 .plant-cart-link{
@@ -334,10 +328,22 @@ header {
     color: white;
 }
 
+.plant-cart-link:visited{
+    color: white;
+}
+
+.plant-cart-link:active{
+    color: white;
+}
+
+.plant-cart-link:hover{
+    color: white;
+    background-color:  #018275;
+}
+
 /*footer*/
 footer{
-  /* background-color:orange; */
- 
+  display: block;
   position: relative;
   max-width: 1100px;
   height: 181px;
@@ -352,15 +358,10 @@ footer{
     bottom:0px;
     left:0px;
     right:0px; 
-  /* height: 90px; */
   padding-top: 50px;
-  /* display:flex;
-  align-items:center;  
-  justify-content:center; */
-  
   text-align: center;
-  
 }
+
 .footer-container a{
   margin: 0px 15px;
 }

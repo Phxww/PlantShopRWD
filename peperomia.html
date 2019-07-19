@@ -26,7 +26,8 @@
       type="text/css"
       rel="stylesheet"
     />
-    <title>Peperomia</title>
+
+    <title>The Plant Shop</title>
   </head>
   <body>
     <nav id="navbar">
@@ -38,11 +39,11 @@
           <i class="fa fa-bars"></i>
         </a>
         <ul class="navbarul" id="navbarmenu">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-          <li>
-            <a href="#" class="snipcart-checkout">
+          <li ><a class="nav-item" href="index.html">HOME</a></li>
+          <li ><a class="nav-item" href="about.html">ABOUT</a></li>
+          <li ><a class="nav-item" href="contact.html">CONTACT</a></li>
+          <li > 
+            <a class="nav-item snipcart-checkout" href="#" >
               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
               <span class="snipcart-summary">
                 (<span class="snipcart-total-items"></span>)
@@ -53,24 +54,31 @@
       </div>
     </nav>
 
-    <div id="plant-info" class="container">
-      <div class="row">
-        <div class="plant-img">
-          <img src="./images/peperomia.png" alt="Peperomia Image">
-        </div>
+      <div class="container" > 
+        <div class="plantBox ">
+          <div class="plant-img">
+            <img src="./images/peperomia.png" alt="Peperomia Image">
+          </div>
 
-        <div class="plant-content text-center">
-          <h2>Peperomia</h2>
-          <span class="price">$24</span>
-          <p>
-            This tropical plant grows low but gets high praise from horticulturists worldwide. This peperomia is easily propagated via leaf-cuttings, and is able to regenerate after completely dying back to the stem. Peperomias are also the safest to grow for curious cats and dogs.
-          </p> 
-          <div class="plant-cart">
-            <a href="#" class="plant-cart-link">ADD TO CART</a>
-          </div> 
+          <div class="plant-content text-center">
+            <h2>Peperomia</h2>
+            <span class="price">$24</span>
+            <p>
+              This tropical plant grows low but gets high praise from horticulturists worldwide. This peperomia is easily propagated via leaf-cuttings, and is able to regenerate after completely dying back to the stem. Peperomias are also the safest to grow for curious cats and dogs.
+            </p> 
+            <div class="plant-cart">
+              <a href="#" class="plant-cart-link snipcart-add-item"
+              data-item-id="CHINESE_EVERGREEN"
+              data-item-name="Chinese Evergreen"
+              data-item-price="28"
+              data-item-image="../images/peperomia.png"
+              data-item-url="https://sharvaridesai.gitlab.io/hexo-theme-milan/Chinese-Evergreen/"             
+              >ADD TO CART</a>
+            </div> 
+          </div>
         </div>
       </div>
-    </div>
+
 
     <footer>
       <div class="footer-container">
